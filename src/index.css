@@ -1,9 +1,10 @@
 html,body{
   height: 100%;
+
 }
 
-#firstPage{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../res/img_1.jpg);
+#greetingPage{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../res/img_1.jpg);
 
   background-position: center;
   background-repeat: no-repeat;
@@ -12,9 +13,17 @@ html,body{
 
   background-attachment: fixed;
 
+  color: white;
+
 }
 
 @media only screen and (max-width: 450px) {
+  .display-1{
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-height: 400px) {
   .display-1{
     font-size: 4rem;
   }
