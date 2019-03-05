@@ -58,11 +58,11 @@ html, body {
   width: 20px;
 }
 
-#features .card-img-top {
+#features .card{
   background-color: #3F729B;
 }
 
-#features .card{
+#features .card-body{
   background-color: #1C2331;
 }
 
@@ -75,10 +75,9 @@ html, body {
 }
 
 #reviews img{
-  max-width: 150px;
-  max-height: 150px;
+  width: 150px;
+  height: auto;
 }
-
 /* #features .card{
   max-width: 12rem;
   max-height: 28rem;
