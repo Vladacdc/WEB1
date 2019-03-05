@@ -78,7 +78,19 @@ html, body {
   width: 150px;
   height: auto;
 }
-/* #features .card{
-  max-width: 12rem;
-  max-height: 28rem;
-} */
+
+li img{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.porfolio-img{
+  flex: 1;
+  height: auto;
+  width: auto;
+}
+
+.portfolio-text{
+  flex: 2;
+  align-self: center;
+}
