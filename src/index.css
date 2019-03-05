@@ -79,10 +79,7 @@ html, body {
   height: auto;
 }
 
-li img{
-  max-width: 200px;
-  max-height: 200px;
-}
+
 
 .porfolio-img{
   flex: 1;
