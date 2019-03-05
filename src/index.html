@@ -7,44 +7,69 @@
 
   <title>Monopoly Online</title>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="../dist/css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="../dist/css/style.css" rel="stylesheet">
+
   <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
   <!-- Greeting -->
-  <div id="greetingPage" class="h-100 container-fluid ">
+  <div id="greetingPage" class="h-100 container-fluid text-center ">
     <div class="h-100 row align-items-center">
-      <div class="mx-auto text-center">
+      <div class="mx-auto ">
         <h1 class="display-1 font-weight-normal my-sm-5">Monopoly Online</h1>
-        <button id="button" class="btn btn-primary btn-lg my-sm-5 py-3 px-5" type="button" name="button">Play!</button>
+        <!-- <button id="button" class="btn btn-primary btn-lg my-sm-5 py-3 px-5" type="button" name="button">Play!</button> -->
       </div>
     </div>
+    <span class="hero__scroll row ">
+      Scroll down <br>
+      <a href="#descriptionPage"><i class="chevron bottom"></i></a>
+    </span>
   </div>
   <!-- Description -->
   <div id="descriptionPage" class="text-center">
     <h2>About</h2>
+
   </div>
   <!-- Features -->
   <div id="features" class="container-fluid text-center">
 
-    <h1>Our Features</h1>
-
+    <h1>Features</h1>
     <!--  -->
     <div class="container">
-      <div class="card-deck ">
+
+      <div class="card-deck">
 
         <div class="card mb-4">
+          <div class="view overlay">
+            <img class="card-img-top" src="../res/feature_1.png">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+
           <div class="card-body">
             <h4 class="card-title">Free to Play</h4>
-            <p class="card-text"></p>
           </div>
         </div>
 
         <div class="card mb-4">
+          <div class="view overlay">
+            <img class="card-img-top" src="../res/feature_2.png" >
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+
           <div class="card-body">
-            <h4 class="card-title">Customisation</h4>
-            <p class="card-text"></p>
+            <h4 class="card-title">Customizable</h4>
           </div>
         </div>
 
@@ -53,9 +78,15 @@
         </div>
 
         <div class="card mb-4">
+          <div class="view overlay">
+            <img class="card-img-top" src="../res/feature_3.png" >
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+
           <div class="card-body">
             <h4 class="card-title">Ranking System</h4>
-            <p class="card-text"></p>
           </div>
         </div>
 
@@ -64,9 +95,15 @@
         </div>
 
         <div class="card mb-4">
+          <div class="view overlay">
+            <img class="card-img-top" src="../res/feature_4.png">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+
           <div class="card-body">
             <h4 class="card-title">All Platforms</h4>
-            <p class="card-text"></p>
           </div>
         </div>
 
@@ -77,21 +114,26 @@
           <!-- wrap every 4 on lg-->
         </div>
 
-        <div class="card mb-4">
+        <!-- <div class="card mb-4">
+          <div class="view overlay">
+            <img class="card-img-top" src="#">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+
           <div class="card-body">
             <h4 class="card-title">Crossplay</h4>
-            <p class="card-text"></p>
           </div>
-        </div>
-
+        </div> -->
+<!--
         <div class="w-100 d-none d-xl-block">
-          <!-- wrap every 5 on xl-->
-        </div>
+          wrap every 5 on xl
+        </div> -->
 
       </div>
     </div>
   </div>
-  <!--  -->
   <!-- Reviews -->
   <div class="">
 
@@ -101,9 +143,15 @@
 
   </div>
   <!-- Scripts for bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../dist/js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="../dist/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="../dist/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="../dist/js/mdb.min.js"></script>
+  </script>
+  </script>
 </body>
 
 </html>
