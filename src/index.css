@@ -59,12 +59,27 @@ html, body {
 }
 
 #features .card-img-top {
-  background-color: #b2dfdb;
+  background-color: #3F729B;
+}
+
+#features .card{
+  background-color: #1C2331;
 }
 
 #features{
   background-image: url(../res/bg_2.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-clip: border-box;
   background-attachment: fixed;
 }
+
+#reviews img{
+  max-width: 150px;
+  max-height: 150px;
+}
+
+/* #features .card{
+  max-width: 12rem;
+  max-height: 28rem;
+} */
